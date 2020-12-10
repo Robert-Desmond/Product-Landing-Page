@@ -7,43 +7,64 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <header id="header">
-            <nav>
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#video" class="nav-link">Video</a>
-                <a href="#pricing" class="nav-link">Pricing</a>
+            <nav id="nav-bar" class="nav main-nav">
+                <a href="#header" class="nav-link">Home</a>
+                <a href="#video-section" class="nav-link">Video</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </nav>
-            <div class="container">
+            <br>
+            <br>
+            <br>
+            <div class="container bg">
                 <div class="header-left">
-                    <h1>Pizza Pizza</h1>
+                    <h1>Pizza Palace</h1>
                     <p>
-                        pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza pizza 
+                        Pizza Palace is a classic take on America’s favorite food. We proudly serve up delicious, gourmet pizza in its purest form - untainted by artificial additives. While we’re famous for our pizza, our menu features a wide variety of gourmet sandwiches, salads, desserts, beer and wine.
                     </p>
                 </div>
                 <div class="header-right">
-                    <img src=https://www.pngkey.com/png/full/2-25804_pepperoni-pizza-png-transparent-image-pepperoni-pizza-with.png" alt="Pizza Time">
+                    <img id="header-img" src="https://www.pngkey.com/png/full/2-25804_pepperoni-pizza-png-transparent-image-pepperoni-pizza-with.png" alt="Pizza Time">
                 </div>
             </div>
         </header>
         <section id="features">
             <div class="container">
                 <div class="feature">
-                    <i class="fas fa-car"></i>
+                    <i class="fas fa-users"></i>
                     <h2>User Reviews</h2>
-                    <p>This is a section for user reviews</p>
+                    <p><a class="no-deco-black" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPseyZp8LtAhXhHjQIHUW-BtkQFjAAegQIARAD&url=https%3A%2F%2Fwww.yelp.com%2F&usg=AOvVaw0P5afNnjWj9--dpm1StFRH" target="_blank">This is what customers think of our pizza!</a></p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-pizza-slice"></i>
+                    <h2>Menu</h2>
+                    <p><a class="no-deco-black" href="https://www.musthavemenus.com/x/design/thumbnail/f40b5823-a672-46fa-8679-66febe3b2646?width=300&update=1557353300873" target="_blank">Take a look at our menu!</a></p>
                 </div>
                 <div class="feature">
                     <i class="fas fa-car"></i>
-                    <h2>User Reviews</h2>
-                    <p>This is a section for user reviews</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-car"></i>
-                    <h2>User Reviews</h2>
-                    <p>This is a section for user reviews</p>
+                    <h2>Location</h2>
+                    <p><a class="no-deco-black" href="https://www.google.com/maps" target="_blank">We're located at 1234 Pizza Lane.</a></p>
                 </div>
             </div>
         </section>
+        <section id="video-section">
+            <h2>Video</h2>
+            <div class="container video">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cbg1Swf3ckg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact" class="bg">
+            <div class="container">
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <h2>Contact us!</h2>
+                    <div class="flex">
+                        <input type="email" name="email" id="email" placeholder="Enter your Email...">
+                        <input type="submit" value="Submit" id="submit" class="btn btn-submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer><i class="fas fa-pizza-slice flip"></i>  Made by Robert Desmond with help from <a href="https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA" class="no-deco">Florin Pop</a> <i class="fas fa-pizza-slice"></i></footer>
     </body>
 </html>
